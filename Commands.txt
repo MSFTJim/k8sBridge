@@ -1,0 +1,9 @@
+az login
+az --version
+
+Az aks get-credentials --resource-group [name] --name [cluster name]
+    az aks get-credentials --resource-group rg-AKSwTim --name K8s-TJ
+	az aks get-credentials --resource-group aks-rg-jim11437 --name AZDO-AKS
+
+az aks get-upgrades
+az aks get-upgrades --resource-group myResourceGroup --name myAKSCluster --output table
